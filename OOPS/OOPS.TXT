@@ -6,7 +6,7 @@ OOPS {Obejct Oriented Programming}:
 -->Abstraction : This can be defined as the way of hiding unnecessary data from the user
 -->Encapsulatoon : This can be defined as the way of wrapping the methods and attributes in one single space.
 -->Inheritance : It can be defined as when the base class transfers its properties to the derived class.
-<<<<<<< HEAD
+
 
 =======
                : The dervied class is called the child class and the base class is called the parent class.
