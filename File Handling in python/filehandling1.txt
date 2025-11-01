@@ -1,0 +1,40 @@
+Python can be used to perform various opertaion into the file such as reading and writing into or from the file
+There are two types of files:
+Text files and Binary files;
+
+#basic sytax :
+
+ f= open("File_name","mode")
+ 
+ here :
+ (1) file_name - we have to write the complete file name 
+ example - sample.Text
+ (2) mode - specify the mode such as read mode or write mode
+
+#lets understand the various modes in which file can be used :
+
+ (1)'r' - THIS MODE OPENS THE FILE FOR READING(DEFAULT)
+ (2)'w' - THIS MODE OPENS THE FILE AUTOMATICALLY EVEN IF IT NOT EXISTS FOR WRITING,DELETING A PART INTO THE FILE(TRUNCATING INTO THE FILE)
+ (3)'x' - THIS MODE CREATES A NEW FILE AND OPEN IT FOR WRITING
+ (4)'a' - THIS MODE OPEN A FILE FOR WRITING,APPENDING TO THE END OF THE FILE IF IT EXISTS
+ (5)'b' - THIS MODE OPEN THE FILE IN BINARY MODE
+ (6)'t' - THIS MODE OPEN THE FILE IN TEXT MODE
+ (7)'+' - THIS MODE OPENS A DISK FILE FOR UPDATING(READING AND WRITING ) 
+
+ NOTE:
+ (i) THE 'w' mode allows us to write the data into the file but it overwrites the entire file
+    in simple words , the old data in the file is deleted and the new data is added 
+ (ii) THE 'a' mode allowd us to write into the file without overwrting the data and adding the 
+      new data at the end of the file.
+ (iii) THE 'r+' mode allows us to read and overwrite into the file from the starting of the file 
+ (iv) IF we open a file in 'w+' mode and then read the file it will return empty as 'w+' mode will
+      truncate the old data and the file will be empty
+ (v) If we open the file in 'a+' mode the pointer will be placed at the end of the file hence if we try
+     to read into the file first the output will be empty hecne we have to seek(0) the pointer and then read,
+   you can directly write into the file as it will append the data at the end of the file.
+
+
+#Deleting a file using FILE I/O:
+--> Deleting a file in python cannot be done directly , we have to import some modules to delete the file.
+--> Modules are file written by another programmer that generally has a function that we can use.
+--> In File I/O we use the os module which is pre-installed into python 
