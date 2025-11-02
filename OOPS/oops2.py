@@ -1,3 +1,5 @@
+#Use of the del statement.
+
 class Student:
     def __init__(self,name,marks):
         self.name=name
