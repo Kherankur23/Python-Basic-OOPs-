@@ -64,3 +64,28 @@ c1=C()
 print(c1.varC)
 print(c1.varB)
 print(c1.varA)'''
+
+
+
+#Super() Method :
+
+class Car:  
+
+    def __init__(self,type):
+        self.type=type 
+    @staticmethod
+    def start():
+        print("car started...")
+    @staticmethod
+    def stop():
+        print("car stopped...")
+    
+class ToyotaCar(Car):   
+    def __init__(self,name,type):
+        self.name=name
+        super().__init__(type)
+
+car1=ToyotaCar("Fortuner","Eletric")
+print(Car.start())
+print(Car.stop())
+
