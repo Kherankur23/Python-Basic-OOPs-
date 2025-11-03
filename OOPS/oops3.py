@@ -69,10 +69,11 @@ print(c1.varA)'''
 
 #Super() Method :
 
-class Car:  
+'''class Car:  
 
-    def __init__(self,type):
+    def __init__(self,type):        #parent class funtion 
         self.type=type 
+
     @staticmethod
     def start():
         print("car started...")
@@ -81,11 +82,11 @@ class Car:
         print("car stopped...")
     
 class ToyotaCar(Car):   
-    def __init__(self,name,type):
+    def __init__(self,name,type):  
         self.name=name
-        super().__init__(type)
+        super().__init__(type)     #parent class function called using super() method.
 
 car1=ToyotaCar("Fortuner","Eletric")
 print(Car.start())
-print(Car.stop())
+print(Car.stop())'''
 

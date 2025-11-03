@@ -7,11 +7,8 @@ OOPS {Obejct Oriented Programming}:
 -->Encapsulatoon : This can be defined as the way of wrapping the methods and attributes in one single space.
 -->Inheritance : It can be defined as when the base class transfers its properties to the derived class.
                : The base class is also called the parent class and the Derived class is also called the child class.
+              : The dervied class is called the child class and the base class is called the parent class.
 
-
-=======
-               : The dervied class is called the child class and the base class is called the parent class.
->>>>>>> fa57e9ec19d8334d5fd83d60cc0ba00eaf485b66
 
 @Constructor : It can be defined as the funtion that is present in all the classes
                and is called _init()_ function, which is always executed when the class is being
