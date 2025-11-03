@@ -8,7 +8,8 @@ OOPS {Obejct Oriented Programming}:
 -->Inheritance : It can be defined as when the base class transfers its properties to the derived class.
                : The base class is also called the parent class and the Derived class is also called the child class.
               : The dervied class is called the child class and the base class is called the parent class.
-
+-->Polymorphism : In simple terms poly means many and Polymorphism means many form , hence when the same operator is allowed to have different meaning according to the context
+                  its called Polymorphism.
 
 @Constructor : It can be defined as the funtion that is present in all the classes
                and is called _init()_ function, which is always executed when the class is being
@@ -50,6 +51,7 @@ OOPS {Obejct Oriented Programming}:
               :NOTE THAT the static method cant access or modify class state and generally for utility
 
 
+@Property{decorater}: Property decorater is a type of decorater which is used on any method in the class to use the method as a property.
 
 
 
